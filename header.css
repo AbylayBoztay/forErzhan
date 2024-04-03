@@ -1,0 +1,111 @@
+.header__wrapper{
+    min-width: 1440px;
+    height: 90px;
+    display: grid;
+    align-items: center;
+    background-color: #DDE1E6;
+    border-bottom-left-radius: 45px;
+    border-bottom-right-radius: 45px;
+}
+
+.header__row{
+    position: relative;
+    min-width: 1320px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+}
+
+.header__logo-text{
+    width: 224px;
+    height: auto;
+    position: absolute;
+    font-size: 24px;
+    left: 60px;
+    text-decoration: none;
+}
+
+.header__logo-text span{
+    color: #697077;
+}
+
+.header__nav{
+    position: absolute;
+    right: 60px;
+    width: 725px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.header__nav a{
+    color: #323748;
+}
+
+.change-language{
+    width: 52px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.triangle{
+    width: 12px;
+    height: 8.92px;
+}
+
+.language-img{
+    width: 24px;
+    height: 24px;
+}
+
+.dropdown__wrapper{
+    position: absolute;
+    display: flex;
+    width: 52px;
+    height: 76px;
+    top: 100%;
+    left: 0;
+    justify-content: center;
+}
+
+.dropdown__content{
+    display: none;
+    z-index: 1;
+}
+
+.change-language:hover{
+    background-color: antiquewhite;
+}
+
+.change-language:hover .dropdown__content{
+    display: block;
+}
+
+.change-language:hover .dropdown__wrapper{
+    background-color: antiquewhite;
+}
+
+
+
+
+.registration-block{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 173px;
+    height: 38px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+
+
+@media screen and (min-width: 200px) and (max-width: 768px) {
+    .burger-icon{
+        display: block;
+    }
+}

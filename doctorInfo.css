@@ -1,0 +1,87 @@
+.doctorInfo{
+    position: relative;
+}
+
+.doctorInfo__wrapper{
+    display: flex;
+    margin-top: 60px;
+}
+
+.doctorInfo__current{
+    z-index: 999;
+    width: 916px;
+    height: 640px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 16px;
+    padding-left: 24px;
+    background-color: #DDE1E6;
+}
+
+.right-side{
+    margin-left: 40px;
+}
+
+.nameOfDoctor{
+    color: #001D6C;
+}
+
+.mailOfDoctor,
+.phoneNumberOfDoctor{
+    color: #697077;
+}
+
+.title1,
+.title2,
+.title3{
+    color: #697077;
+}
+
+.specializationOfDoctor,
+.educationOfDoctor,
+.backgroundOfDoctor{
+    color: #21272A;
+    width: 542px;
+    height: 52px;
+}
+
+.doctorInfo__back{
+    z-index: 998;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 16px;
+    padding-left: 24px;
+    width: 750px;
+    height: 571px;
+    background-color: gray;
+    position: absolute;
+    top: 34px;
+    left: 450px;
+}
+
+.right-side_back{
+    margin-left: 40px;
+}
+
+.nameOfDoctor_back{
+    color: #001D6C;
+}
+
+.mailOfDoctor_back,
+.phoneNumberOfDoctor_back{
+    color: #697077;
+}
+
+.title1_back,
+.title2_back,
+.title3_back{
+    color: #697077;
+}
+
+.specializationOfDoctor_back,
+.educationOfDoctor_back,
+.backgroundOfDoctor_back{
+    color: #21272A;
+    width: 542px;
+    height: 52px;
+}
